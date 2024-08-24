@@ -16,4 +16,10 @@ if(player.age && player.age < 10){
 
 이번엔 type에 대해 알아보자.
 
-type
+type Animal = {
+  readonly name: string;
+  age: number;
+  hobby?: string;
+};
+
+"TS는 Type Checker와 소통하는 과정이다. 이것이 핵심이다."
